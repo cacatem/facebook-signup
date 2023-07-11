@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!--Tags para SEO-->
+    <meta name="description" content="Facebook login page made by Cauã Cavalcante">
+    <meta name="keywords" content="facebook, login">
+    <meta name="author" content="Cauã Cavalcante">
+    <!--Estilo-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Facebook</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h2>facebook</h2>
+            </div><!--logo-->
+            <form method="post" class="form-login">
+                <div class="form-element">
+                    <p>Email or phone number:</p>
+                    <input type="email" name="email" placeholder="Enter your email address">
+                    <br>
+                </div><!--form-element-->
+                <div class="form-element">
+                    <p>Password:</p>
+                    <input type="password" name="password" placeholder="Enter your password">
+                </div><!--form-element-->
+                <div class="form-element">
+                    <input type="submit" name="action" value="Login"/>
+                </div><!--form-element-->
+            </form><!--form-login-->
+            <div class="clear"></div>
+        </div><!--center-->
+    </header>
+    <section class="main">
+        <div class="clear"></div>
+        <div class="people-img">
+            <img src="img/group1.png" alt="Group of people silhouette">
+        </div><!--people-img-->
+        <div class="main-txt">
+            <p>Facebook helps you connect and share with the people in your life.
+                <br><br>
+            Facebook is a website which allows users, who sign-up for free profiles, to connect with friends, work colleagues or people they don't know, online. We allows users to share pictures, music, videos, and articles, as well as their own thoughts and opinions with however many people they like.
+            </p>
+        </div>
+        <div class="center">
+            <div class="sign-up">
+                <h2>Create your account:</h2>
+                <form class="create-account">
+                    <div class="w50">
+                        <input placeholder="First Name" name="name" type="text"/>
+                    </div><!--w50-->
+                    <div class="w50">
+                        <input placeholder="Last Name" name="surname" type="text"/>
+                    </div><!--w50-->
+                    <div class="clear"></div>
+                    <div class="w100">
+                        <input placeholder="Your Email" name="email" type="email"/>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <input placeholder="Re-enter Email" name="email" type="email"/>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <input placeholder="New Password" name="password" type="password"/>
+                    </div><!--w100-->
+                    <div class="w100">
+                        <input placeholder="Confirm Password" name="password" type="password"/>
+                    </div><!--w100-->
+                    <div class="footer-signup">
+                        <div class="w50 birthdate-box">
+                            <!--È POSSIVEL FAZER COM PHP OU MANUALMENTE TBM-->
+                            <p>Birthdate:</p>
+                            <input type="date" id="birthday" name="birthdate">
+                        </div><!--w50 birthdate-box-->
+                        <div class="w50">
+                            <div class="input-radio">
+                                <p>Gender:</p>
+                                <select class="gender" name="gender">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                            </div><!--input-radio-->
+                        </div><!--w50 gender-->
+                    </div>
+                    <div class="w100">
+                        <input type="submit" name="action" value="Sign Up"/>
+                    </div>
+                    <div class="clear"></div>
+                </form><!--create-account-->
+            </div><!--sign-up-->
+        </div>
+    </section><!--main-->
+</body>
+</html>
